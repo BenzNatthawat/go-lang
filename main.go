@@ -1,12 +1,13 @@
 package main
 
 import (
-	"./conditions"
+	"./loop"
 )
 
 func main() {
-	conditions.IfElse("Benz")
-	conditions.IfElse("")
-
-	conditions.IfElseShort()
+	loop.ThreeComponentLoop()
+	loop.WhileLoop()
+	loop.ForEachLoop()
+	loop.ExitLoop()
+	// loop.InfiniteLoop()
 }
