@@ -1,12 +1,9 @@
 package main
 
 import (
-	"./variable"
+	"./constants"
 )
 
 func main() {
-	variable.VarInt()
-	variable.VarString()
-	variable.VarBoolean()
-	variable.VarPointer()
+	constants.ConstDefault()
 }
