@@ -1,13 +1,9 @@
 package main
 
 import (
-	"./loop"
+	"./types"
 )
 
 func main() {
-	loop.ThreeComponentLoop()
-	loop.WhileLoop()
-	loop.ForEachLoop()
-	loop.ExitLoop()
-	// loop.InfiniteLoop()
+	types.BasicType()
 }
