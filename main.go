@@ -1,9 +1,7 @@
 package main
 
-import (
-	"./types"
-)
+import "./pointer"
 
 func main() {
-	types.BasicType()
+	pointer.Pointer()
 }
