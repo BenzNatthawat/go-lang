@@ -1,7 +1,9 @@
 package main
 
-import "./pointer"
+import "./array"
 
 func main() {
-	pointer.Pointer()
+	array.Array()
+	array.Slice()
+	array.AppendArray()
 }
