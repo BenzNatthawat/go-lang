@@ -3,16 +3,18 @@ package array
 import "fmt"
 
 func Map() {
-	var sl = make([]int, 4)
+	var mOne = make(map[string]string)
+	var mTwo = map[string]string{}
+	var mThree = map[string]string{
+		"lastName": "YoYo",
+	}
 
 	fmt.Println("------------------- Map ----------------------")
-	sl[0] = 5
-	sl[2] = 60
-	sl = append(sl, 20)
 
-	fmt.Printf("%v \n", sl[0])
-	fmt.Printf("%v \n", sl[1])
-	fmt.Printf("%v \n", sl[2])
-	fmt.Printf("%v \n", sl[3])
-	fmt.Printf("%v \n", sl)
+	mOne["name"] = "John"
+	mTwo["firstName"] = "Pawit"
+
+	fmt.Printf("%v \n", mOne)
+	fmt.Printf("%v \n", mTwo)
+	fmt.Printf("%v \n", mThree)
 }
