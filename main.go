@@ -1,9 +1,11 @@
 package main
 
-import "./array"
+import (
+	"fmt"
+
+	"./array"
+)
 
 func main() {
-	array.Array()
-	array.Slice()
-	array.AppendArray()
+	fmt.Println(array.VariadicFunc(2, 5))
 }
